@@ -5,6 +5,8 @@
         <title> </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+
     </head>
 
 <body >
@@ -142,14 +144,137 @@
            </tr>
 
            <tr class="block3">
+                <table class="undertb3" border="0px">
+                 
+                    <tr><td rowspan="2" width="50%" class="h1tb3"><h1>ЛЮБИМЫЕ ИГРЫ ПОКУПАТЕЛЕЙ</h1></td>
+                        <td width="50%" class="tb3img1" colspan="2"><button class="borderimg1"><h3>Дино</h3><img src="img/dino.png" alt=""></button></td></tr>
 
+                   <tr><td width="25%" class="tb3img2"><button class="borderimg2"><h3>Поиск <br> сокровищ</h3><img src="img/treasurehunt.png" alt=""></button></td>
+                    <td  class="tb3img3" width="25%"><button class="borderimg3"><h3>Спящий Джо</h3><img src="img/sleepyjoe.png" alt=""></button></td></tr> 
+                </table>
            </tr>
 
            <tr class="block4">
-
+            <div class="content3" >    
+                <table  class="undertb4" border="0px">
+                    <col width="10%">
+                    <col width="40%">
+                    <col width="50%">
+                <td></td>
+                <td>
+                    
+                    <h1>РАСПРОДАЖА ДЕТСКИХ ИГР</h1>
+                    <p class="pblock4">Порадуйте своего ребенка новой настольной игрой!
+                      <br>   Успейте приобрести, акция действует до 30 ноября.
+                    </p>
+                    <button class="navbutton4bl">Смотреть каталог</button>
+                
+                
+                </td>
+                <td></td>
+                </table></div>
            </tr>
 
            <tr class="block5">
+            <table class="undertb5" border="0px">
+                 <col width="50%"><col width="50%">
+                <tr><td   class="td1">
+
+<img src="img/town.png" alt="">
+
+                </td>
+                    <td  class="td2" ><button class="butgame" ><center><h4 >ИГРА МЕСЯЦА</h4></center></button><button class="butgame2">4.98</button>
+                    <h1>ГОРОД</h1>
+                    <p class="left">Увлекательная игра, в которой вам предстоит построить город своей мечты. Но это не так просто, как кажется. 
+                        Придется находить ресурсы, преодолевать преграды, логовариваться с жителями, строить заводы и заботиться об экологии. 
+                        Сможете ли вы создать город мечты, в котором будут довольны все жители?
+                    </p>
+
+                    <div width="100%" class="rik">
+                        <div ><span>Для возраста от 6 лет</span></div>
+                        <div ><span>3-20 игроков</span></div>
+                        <div ><span>Партия 2 часа</span></div>
+
+                    </div>
+                    <div width="100%" class="rik1">
+                        <div ><h2>1990 Р</h2></div>
+                        <div > <button class="navbutton5bl">Добавить в корзину</button></div>
+                     
+
+                    </div>
+                    </td>
+                </tr>
+
+               <tr><td  class="td3">
+                   <div class="btnspisok" onclick="text1()"><button class="spisok1"><p>Описание</p></button>
+                <button class="spisok2" onclick="text2()"><p>Правила игры</p></button>
+                <button class="spisok3" onclick="text3()"><p>Отзывы</p></button>
+                
+<script>
+function text1(){
+    if ($('.text2')){
+
+        $('#smena1').empty();
+
+    }
+    if ($('.text3')){
+
+$('#smena1').empty();
+
+}
+
+    $('#smena1').replaceWith('<p class="left">Новое исполнение всем полюбившейся градостроительной игры. На этот раз создатели подумали об игроков всех возрастов. Регулируйте уровень сложности и играйте в любой компании. Самые простые правила позволяют играть даже детям от 6 лет. </p><br><p class="left">Компании взрослых игроков будет интересно, если усложнить игру, причем в "Город" могут играть как 3 человека, так и группа больше, до 20 человек. Это не просто игра, которая увлечет вас не на один вечер. Она развивает критическое мышление, учит договариваться, искать компромиссы, находить нестандартные решения проблемы.</p>');
+
+}
+
+function text2(){
+    if ($('.text1')){
+
+$('#smena1').empty();
+
+}
+if ($('.text3')){
+
+$('#smena1').empty();
+
+}
+    $('#smena1').replaceWith('<p class="left">2 ТЕКСТ полюбившейся градостроительной игры. На этот раз создатели подумали об игроков всех возрастов. Регулируйте уровень сложности и играйте в любой компании. Самые простые правила позволяют играть даже детям от 6 лет. </p><br><p class="left">Компании взрослых игроков будет интересно, если усложнить игру, причем в "Город" могут играть как 3 человека, так и группа больше, до 20 человек. Это не просто игра, которая увлечет вас не на один вечер. Она развивает критическое мышление, учит договариваться, искать компромиссы, находить нестандартные решения проблемы.</p>');
+
+}
+function text3(){
+    if ($('.text2')){
+
+$('#smena1').empty();
+
+}
+if ($('.text1')){
+
+$('#smena1').empty();
+
+}
+$('#smena1').replaceWith('<p class="left">3 ТЕКСТ полюбившейся градостроительной игры. На этот раз создатели подумали об игроков всех возрастов. Регулируйте уровень сложности и играйте в любой компании. Самые простые правила позволяют играть даже детям от 6 лет. </p><br><p class="left">Компании взрослых игроков будет интересно, если усложнить игру, причем в "Город" могут играть как 3 человека, так и группа больше, до 20 человек. Это не просто игра, которая увлечет вас не на один вечер. Она развивает критическое мышление, учит договариваться, искать компромиссы, находить нестандартные решения проблемы.</p>');
+
+
+}
+
+
+
+
+
+</script>
+
+
+
+
+            </div><div id="smena1"></div>
+         
+        </td>
+               
+               
+               
+               
+                <td  class="td4" ></td></tr> 
+            </table>
 
            </tr>
 
