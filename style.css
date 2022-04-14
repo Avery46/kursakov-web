@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-.content{min-height: 6000px; width: 100%;margin-top: 100px;}
+.content{min-height: 100%; width: 100%;margin-top: 100px;}
 
 
 /* header */
@@ -284,10 +284,10 @@ margin-right: 10%;}
 
   height:50px;
   width: 100%; border:none; border-radius: 10px; }
-  .btnspisok button {height: 90%;width: 30%;margin-bottom:3px;margin-top:3px; border: none; border-radius: 15px;background-color: rgb(248, 247, 245); }
-.spisok1 {margin-left: 3px;margin-right: calc(4%);}
-.spisok2 {margin-right: calc(4%);}
-.spisok3 {margin-right: 3px;}
+  .btnspisok button {height: 90%;width: 29%;margin-bottom:3px;margin-top:3px; border: none; border-radius: 15px;background-color: rgb(248, 247, 245); }
+.spisok1 {margin-left: 5px;margin-right: calc(5%);}
+.spisok2 {margin-right: calc(5%);}
+.spisok3 {margin-right: 1px;}
 .btnspisok button:focus{background-color: rgb(235, 213, 47);}
 
 .td1 img {width: 100% ; height: auto; display: block;}
@@ -309,37 +309,121 @@ margin-right: 10%;}
   height:50px;
   width: 250px; border:none; border-radius: 10px; margin-left: 100px;}
 
-  footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-  }
 
 
 
-/* nav { 
-    position: fixed; top: 0;
-    color:red;
-    background-color: rgb(183, 183, 183);
-    height: 10%;
-    width:100%;}
+.block6 {background-color:rgb(248, 247, 245) ;}
+  .undertb6 {margin-top: 0px;
 
-ul.nav li {  display: inline;  
-    width: 33%;
-   }
+    border-spacing: 0px;
+    text-align: left;
+    width: 80%;
+    height: 884px;
+    margin-left: 10%;
+    margin-right: 10%;}
+
+    .content6 {  
+      height: 30%; width: 100%; 
+     
+       background-color: rgb(243, 241, 236);
+ 
+       min-height: 550px;}
+
+       .undertb6 h1 {font-size: 70px;text-align: left; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-top: 10px;}
+
+.undertb6 td { vertical-align: top;padding-top: 200px;}
+
+.undertb6 td p {margin-top: 40px; width: 473px; text-align: left;}
+
+
+.contimg  {margin-top: 10px;width: 100%;min-height: 300px;position: relative; }
+.contimg div{display: inline-block; width: 25%;}
+.contimg4 { width: 30%;}
+.contimg4 {margin-left: 150px;margin-top: -75px;}
+.contimg1 img{vertical-align: middle;}
+
+
+.contimg1 h4 {position: absolute; top: 44%; left: 6%;}
+.contimg2 h4 {position: absolute; top: 30%; left: 32%;}
+.contimg3 h4 {position: absolute; top: 30%; left: 59%;}
+.contimg4 h4 {position: absolute; top: 70%; left:24%;  transform: rotate(-15deg) }
+
+
+.inpdiv {width: 80%;height: 100%;margin-top: -30px;}
+.inpdiv input{width: 80%;    background-color: rgb(243, 241, 236);height: 40px; border-radius: 15px; border-color: rgb(171, 171, 171);
+border-style: solid;}
+.inpdiv p{font-size:15px;color:rgb(182, 176, 176); margin-bottom: 5px;}
+
+
+
+
+
+
+ footer {background-color: rgb(225, 223, 220);margin-top: 0px;
+
+  border-spacing: 0px;
+
+  width: 80%;
+ 
+  margin-left: 10%;
+  margin-right: 10%;}
+
+
+ 
+ footer ul li.li1f{width: 33%;text-align: left;margin-right: 20%;}
+ footer ul li.li2f{width: 33%;}
+ footer ul li.li3f{width: 33%;text-align: right;}
+
+
+ 
+ footer ul li.li1f a {
+  align-items: center;
+  min-height: 100px;
+  text-decoration: none;
+  color: #333;
+ 
+
+
+}
+.contentf { background-color: rgb(225, 223, 220); width: 100%;}
+
+
+footer ul li.li2f a {align-items: center;
+  min-height: 100px;
+  text-decoration: none;
+  color: rgb(16, 16, 16);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:13px;
+width: 10%;
+
+}
+footer ul li.li3f a { align-items: center;
+  text-align: right;
+ width: 100%;
+  min-height: 100px;
+ 
+  text-decoration: none;
+  color: #333;
+
+ 
   
-   nav a {  
-    display: inline-block;  
-    position: fixed; top: 0;
-    text-decoration: none;  
-}  
-
-nav ul {
-    margin: 0 auto;}
-a#logo {
-    margin-top:0%;float: left;}
-    
-.nav {
-    margin-top:5%}    */
+  
+}
+.spisok4f  { background: rgb(243, 241, 236);margin-top: 20px;margin-right: 10px;
+border: 1px solid #7a7b7e;
+width: 16px; 
+height: 16px; 
+border-radius: 4px;}
+.btnspisokf {margin-top: 20px;}
+.btnspisokf span{margin-left: 10px; margin-right: 10px;}
+.btnspisokf button{
+  background: rgb(243, 241, 236); 
+    border: 1px solid #7a7b7e;
+    width: 16px; 
+    height: 16px; 
+    border-radius: 8px;
+}
+.navb  {margin-top: 50px; 
+  background-color: red;color:white;
+  height:50px;
+  width: 250px; border:none; border-radius: 10px;}
