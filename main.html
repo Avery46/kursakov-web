@@ -2,22 +2,25 @@
 <html>  
     <head>
 
-        <title> </title>
+        <title> Бинго Бонго</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
         <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 
     </head>
 
 <body >
     <!--    !!!  МЕНЮБАР  !!!    --> 
-    <header>
-    <nav >
-        <ul>
-            <li  class="li1"><a href="#" id="logo"><img src="img/logotype.png" alt="Бинго Бонго"></a>
+    <header >
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li  class="li1 nav-item"><a href="#" id="logo"><img src="img/logotype.png" alt="Бинго Бонго"></a>
             </li> 
-            <li  class="li2">
-                <a href="#">О нас</a> 
+            <li  class="li2 nav-item">
+                <a href="#" >О нас</a> 
               
                   <a href="#">Каталог</a>  
              
@@ -28,29 +31,41 @@
                   <a href="#">Игротеки</a> 
                 </li>
   
-          <li class="li3">
+          <li class="li3 nav-item">
               <div class="a0"></div>
             <a href="#"><img src="img/search.svg" alt="поиск"></a>
             <a href="#" class="a2"><img src="img/profile.svg" alt="профиль"></a>
             <a href="#" class="a3"><img src="img/cart.svg" alt="корзина"></a></li>
           
         </ul>
+    </div>
+    </div>
       </nav>
-      <table class="tb1" border="0px" width="100%">
-        <col width="10%">
+
+
+
+      <div class="container-fluid tb1"> <!-- tb1
+         <col width="10%">
         <col width="80%">
-        <col width="10%" >
-        <td class="img1"><img  src="img/star-main.svg" alt="цветок"></td>
-<td class="ps" ><h1>НАСТОЛЬНЫЕ ИГРЫ </h1><h1 class="h1_2">ДЛЯ ЛЮБОЙ КОМПАНИИ</h1>
+        <col width="10%" > -->
+        <div class="row h-100">
+        <div class="col-2 img1 align-self-end pl-0"><img  src="img/star-main.svg" alt="цветок"></div> <!-- img1 -->
+<div class="col-8 ps align-self-center" ><h1>НАСТОЛЬНЫЕ ИГРЫ </h1><h1 class="h1_2">ДЛЯ ЛЮБОЙ КОМПАНИИ</h1> <!-- ps -->
     <p>Самые популярные игры для детей и взрослых <br>с бесплатной доставкой по всему миру</p>
     
     
     <button class="navbutton">Смотреть каталог</button>
 
 
-</td>
-<td class="img2"><img  src="img/flower-main.svg" alt="цветок"></td>
-      </table>
+</div>
+<div class="col-2 img2 align-self-start pr-0"><img  src="img/flower-main.svg" alt="цветок"></div><!-- img2 -->
+</div>
+</div>
+
+
+
+
+
     </header>
 
 
@@ -62,106 +77,122 @@
 
 
     <div class="content">
-       <table class="tb2" border="0px">
+       <div class="container-fluid tb2">
 
-           <tr class="block1">
-                <table class="undertb1" border="0px">
-                   <tr><td width="30%" class="ps2"><h1>О НАС</h1>
-                    <p class="tbcont">Бинго Бонго - это место, где каждый найдет игру себе по душе.
+           <div class="block1 row">
+                <div class="container-fluid undertb1 ">
+                   <div class="row">
+                       <div class="col-12 col-md-6"><h1>О НАС</h1> <!-- 30%-->
+                        <p class="tbcont">Бинго Бонго - это место, где каждый найдет игру себе по душе.
 Спортивные, логические, стратегические, развивающие и очень веселые игры - широкий ассортимент нашего 
 магазина никого не оставит равнодушным.
-                    </p>
-                    <p class="tbcont">
+                        </p>
+                        <p class="tbcont">
 Офлайн магазины Бинго Бонго находятся в 40 крупнейших городах России. Сомневаетесь, какую игру выбрать?
 Приходите в магазин и наши консультанты подскажут, сыграют с вами партию, и вы поймете
 , какая игра вам подходит больше всего.
 
 
-                    </p>
-                    <p class="tbcont">
+                         </p>
+                         <p class="tbcont">
                        Также Бинго Бонго регулярно проводит мероприятия и игротеки, где вы можете поиграть в любые 
                        игры из нашего ассортимента, познакомиться сновыми людьми, интересно и весело провести время
                        в приятной компании
                                             </p>
-                                        </td>
-                <td width="50%"  class="ps3"><img  src="img/game.png" alt="em"></a></td>
-            </tr>
+                    </div>
+                    <div class="col-12 col-md-6 gameimg"><img  src="img/game.png" alt="em"></a></div> <!-- 50%-->
+                </div>
                   
 
 
-                   <tr ><td colspan="2" width="100%" class="indentbuttons" >
-                <div class="osnovdiv">
-                       <div class="valign1">
+                   <div class="row mt-4">
+                
+                       <div class=" col-12 col-md-4">
                     <button class="btn1">
                         
                         <h3>Для детей</h3>
                         <p class="wild">Более 100 видов развивающих игр
                             для детей возрастом от 6 месяцев
                         </p>
-                        <img  src="img/magictrain.jpg" alt=""></button></div><div class="valign2">
+                        <img  src="img/magictrain.jpg" alt=""></button></div>
+                        
+                        <div class=" col-12 col-md-4"> <!-- valign 1 2 3-->
                      <button class="btn2">
                         
                         <h3>Для взрослых</h3>
                         <p class="wild">Стратегические, логические, простые веселые игры для любой компании</p>
-                        <img  src="img/wildgames.png" alt=""></button></div><div class="valign3">
+                        <img  src="img/wildgames.png" alt=""></button></div>
+                        
+                        <div class=" col-12 col-md-4">
                      <button class="btn3">
                     
                         <h3>Для всей семьи</h3>
                         <p class="wild">Разнообразные увлекательные игры, чтобы провести время в кругу семьи</p>
                         <img  src="img/tres.png" alt=""></button></div>
-                </div>    
-                   </td>
-                </tr>
-                </table>
-           </tr>
-
-           <tr class="block2" >
-               <div class="content2">    
-                <table  class="undertb2" border="0px">
                    
-                    <tr><td colspan="5">
-                        <h1>БИНГО БОНГО</h1>
-                            <p >Самый популярный магазин настольных игр в России в 2021 году по рейтингу журнала GiGiGame</p>
-                    </td></tr>
-                    <tr  width="100%">
-                        <col width="21%" >
-                        <col width="21%">
-                        <col width="16%"><col width="21%"><col width="21%">
-                        <td id="bbimg" class="bbimg1_1"><img  src="img/car.svg" alt=""> <h4 class="bbimg1">Быстрая <br> доставка</h4></td>
-                        <td id="bbimg" class="bbimg2_2"><img  src="img/ticket.svg" alt=""><h4 class="bbimg2">регулярные <br> игротеки</h4></td>
-                        <td id="bbimg_1" class="bbimg3_3"><img  src="img/star.svg" alt=""><h4 class="bbimg3">эксклюзивные <br> игры</h4></td>
-                        <td id="bbimg" class="bbimg4_4"><img  src="img/cloud.svg" alt=""><h4 class="bbimg4">широкий <br> ассортимент</h4></td>
-                        <td id="bbimg" class="bbimg5_5"><img src="img/wallet.svg" alt=""><h4 class="bbimg5">удобная <br> оплата</h4></td>
-                    </tr>
-
-
-
-
-
-
-                </table>
             </div>
-           </tr>
+        </div>
+    </div>
+</div>
 
-           <tr class="block3">
-                <table class="undertb3" border="0px">
+           <div class="block2 row" >
+               <div class="content2">    
+                <div  class="undertb2 container-fluid">
+                   
+                    <div class="row">
+                        <div>
+                        <h1>БИНГО БОНГО</h1>
+                            
+                        <p style="max-width: auto;margin-left:30%;margin-right:30%;">Самый популярный магазин настольных игр в России в 2021 году по рейтингу журнала GiGiGame</p>
+                    </div>
+                    </div>
+                    <div class="row rowfl"  >
+                      <!--  <col width="21%" >
+                        <col width="21%">
+                        <col width="16%"><col width="21%"><col width="21%">-->
+                        <div id="bbimg" class="bbimg1_1 col-12 col-md"><img  src="img/car.svg" alt=""> <h4 class="bbimg1">Быстрая <br> доставка</h4></div>
+                        <div id="bbimg" class="bbimg2_2 col-12 col-md"><img  src="img/ticket.svg" alt=""><h4 class="bbimg2">регулярные <br> игротеки</h4></div>
+                        <div id="bbimg_1" class="bbimg3_3 col-12 col-md"><img  src="img/star.svg" alt=""><h4 class="bbimg3">эксклюзивные <br> игры</h4></div>
+                        <div id="bbimg" class="bbimg4_4 col-12 col-md"><img  src="img/cloud.svg" alt=""><h4 class="bbimg4">широкий <br> ассортимент</h4></div>
+                        <div id="bbimg" class="bbimg5_5 col-12 col-md"><img src="img/wallet.svg" alt=""><h4 class="bbimg5">удобная <br> оплата</h4></div>
+                      </div>
+
+
+                    </div>
+            </div>
+        </div>
+
+           <div class="block3 row">
+                <div class="undertb3 container-fluid" >
                  
-                    <tr><td rowspan="2" width="50%" class="h1tb3"><h1>ЛЮБИМЫЕ ИГРЫ ПОКУПАТЕЛЕЙ</h1></td>
-                        <td width="50%" class="tb3img1" colspan="2"><button class="borderimg1"><h3>Дино</h3><img src="img/dino.png" alt=""></button></td></tr>
+                    <div class="row"><div class="h1tb3 col-12 col-md-6"><h1>ЛЮБИМЫЕ ИГРЫ ПОКУПАТЕЛЕЙ</h1></div>
+                        <div width="50%" class="tb3img1 col-12 col-md-6" >
+                            <button class="borderimg1"><h3>Дино</h3>
+                            <img src="img/dino.png" alt=""></button>
+                        </div></div>
 
-                   <tr><td width="25%" class="tb3img2"><button class="borderimg2"><h3>Поиск <br> сокровищ</h3><img src="img/treasurehunt.png" alt=""></button></td>
-                    <td  class="tb3img3" width="25%"><button class="borderimg3"><h3>Спящий Джо</h3><img src="img/sleepyjoe.png" alt=""></button></td></tr> 
-                </table>
-           </tr>
+                   <div class="row mt-4">
+                       <div class="col-0 col-md-6"></div>
+                       <div class="tb3img2 col-12 col-md-3">
+                           <button class="borderimg2"><h3>Поиск <br> сокровищ</h3><img src="img/treasurehunt.png" alt="">
+                        </button>
+                        </div>
 
-           <tr class="block4">
+                    <div  class="tb3img3 col-12 col-md-3"><button class="borderimg3"><h3>Спящий Джо</h3>
+                        <img src="img/sleepyjoe.png" alt=""></button>
+                    </div></div> 
+                </div>
+           </div>
+
+           <div class="row block4">
             <div class="content3" >    
-                <table  class="undertb4" border="0px">
-                    <col width="10%">
+                <div  class="undertb4 container-fluid">
+                   <!-- <col width="10%">
                     <col width="40%">
-                    <col width="50%">
-                <td></td>
-                <td>
+                    <col width="50%"> 
+               -->
+                
+                <div  class="col-12 col-md-6 offset-md-1">
                     
                     <h1>РАСПРОДАЖА ДЕТСКИХ ИГР</h1>
                     <p class="pblock4">Порадуйте своего ребенка новой настольной игрой!
@@ -170,161 +201,121 @@
                     <button class="navbutton4bl">Смотреть каталог</button>
                 
                 
-                </td>
-                <td></td>
-                </table></div>
-           </tr>
+                </div>
+           </div>
+</div>
 
-           <tr class="block5">
-            <table class="undertb5" border="0px">
-                 <col width="50%"><col width="50%">
-                <tr><td   class="td1">
+
+
+           <div class="row block5 mt-5 mb-5">
+            <div class="undertb5 container-fluid" >
+               <!--   <col width="50%"><col width="50%">-->
+                <div class="row">
+                    <div class="div1 col-12 col-md-6 h-100">
+
 
 <img src="img/town.png" alt="">
 
-                </td>
-                    <td  class="td2" ><button class="butgame" ><center><h4 >ИГРА МЕСЯЦА</h4></center></button><button class="butgame2">4.98</button>
+                </div>
+                    <div  class="div2 col-12 col-md-6 h-100" ><button class="butgame" ><center><h4 >ИГРА МЕСЯЦА</h4>
+                    </center></button><button class="butgame2">4.98</button>
                     <h1>ГОРОД</h1>
                     <p class="left">Увлекательная игра, в которой вам предстоит построить город своей мечты. Но это не так просто, как кажется. 
                         Придется находить ресурсы, преодолевать преграды, логовариваться с жителями, строить заводы и заботиться об экологии. 
                         Сможете ли вы создать город мечты, в котором будут довольны все жители?
                     </p>
 
-                    <div width="100%" class="rik">
+                    <div  class="rik">
                         <div ><span>Для возраста от 6 лет</span></div>
                         <div ><span>3-20 игроков</span></div>
                         <div ><span>Партия 2 часа</span></div>
 
                     </div>
-                    <div width="100%" class="rik1">
+                    <div  class="rik1">
                         <div ><h2>1990 Р</h2></div>
                         <div > <button class="navbutton5bl">Добавить в корзину</button></div>
                      
 
                     </div>
-                    </td>
-                </tr>
+                    </div>
+                </div>
 
-               <tr><td  class="td3">
-                   <div class="btnspisok" onclick="text1()"><button class="spisok1"><p>Описание</p></button>
-                <button class="spisok2" onclick="text2()"><p>Правила игры</p></button>
-                <button class="spisok3" onclick="text3()"><p>Отзывы</p></button>
-                
-<script>
-function text1(){
-    if ($('.text2')){
-
-        $('#smena1').empty();
-
-    }
-    if ($('.text3')){
-
-$('#smena1').empty();
-
-}
-
-    $('#smena1').replaceWith('<p class="left">Новое исполнение всем полюбившейся градостроительной игры. На этот раз создатели подумали об игроков всех возрастов. Регулируйте уровень сложности и играйте в любой компании. Самые простые правила позволяют играть даже детям от 6 лет. </p><br><p class="left">Компании взрослых игроков будет интересно, если усложнить игру, причем в "Город" могут играть как 3 человека, так и группа больше, до 20 человек. Это не просто игра, которая увлечет вас не на один вечер. Она развивает критическое мышление, учит договариваться, искать компромиссы, находить нестандартные решения проблемы.</p>');
-
-}
-
-function text2(){
-    if ($('.text1')){
-
-$('#smena1').empty();
-
-}
-if ($('.text3')){
-
-$('#smena1').empty();
-
-}
-    $('#smena1').replaceWith('<p class="left">2 ТЕКСТ полюбившейся градостроительной игры. На этот раз создатели подумали об игроков всех возрастов. Регулируйте уровень сложности и играйте в любой компании. Самые простые правила позволяют играть даже детям от 6 лет. </p><br><p class="left">Компании взрослых игроков будет интересно, если усложнить игру, причем в "Город" могут играть как 3 человека, так и группа больше, до 20 человек. Это не просто игра, которая увлечет вас не на один вечер. Она развивает критическое мышление, учит договариваться, искать компромиссы, находить нестандартные решения проблемы.</p>');
-
-}
-function text3(){
-    if ($('.text2')){
-
-$('#smena1').empty();
-
-}
-if ($('.text1')){
-
-$('#smena1').empty();
-
-}
-$('#smena1').replaceWith('<p class="left">3 ТЕКСТ полюбившейся градостроительной игры. На этот раз создатели подумали об игроков всех возрастов. Регулируйте уровень сложности и играйте в любой компании. Самые простые правила позволяют играть даже детям от 6 лет. </p><br><p class="left">Компании взрослых игроков будет интересно, если усложнить игру, причем в "Город" могут играть как 3 человека, так и группа больше, до 20 человек. Это не просто игра, которая увлечет вас не на один вечер. Она развивает критическое мышление, учит договариваться, искать компромиссы, находить нестандартные решения проблемы.</p>');
-
-
-}
-
-
-
-
-
-</script>
-
-
-
-
-            </div><div id="smena1"></div>
+               <div class="row mt-4">
+                   
+                <div  class="div3 col-12 col-md-6 h-100">
+                   <div class="btnspisok" ><button class="spisok1"><p>Описание</p></button>
+                <button class="spisok2" ><p>Правила игры</p></button>
+                <button class="spisok3" ><p>Отзывы</p></button>
+ 
+            </div><div><p style="text-align: left;">Новое исполнение всем полюбившейся градостроительной игры. На этот раз создатели подумали об игроков всех возрастов. Регулируйте уровень сложности и играйте в любой компании. Самые простые правила позволяют играть даже детям от 6 лет.</p> <br><p style="text-align: left;">  Компании взрослых игроков будет интересно, если усложнить игру, причем в "Город" могут играть как 3 человека, так и группа больше, до 20 человек. Это не просто игра, которая увлечет вас не на один вечер. Она развивает критическое мышление, учит договариваться, искать компромиссы, находить нестандартные решения проблемы.</p></div>
          
-        </td>
+        </div>
                
                
                
                
-                <td  class="td4" ></td></tr> 
-            </table>
+                <div  class="div4 col-12 col-md-6 h-100" ></div></div> 
+            </div>
 
-           </tr>
+           </div>
 
-           <tr class="block6">
-               <div class="content6">
-                <table class="undertb6" border="0px">
-                    <col width="50%">
-                    <col width="50%">
 
-                    <td>
-                            <h1>ОКТЯБРЬСКАЯ ИГРОТЕКА</h1>
-                            <p>Приглашаем вас на увлекательнуюигротеку от Бинго Бонго! 
-                                Приходите сами, приводите друзей и семью. Мы обещаем - будет очень весело!
-                            </p>
-<div class="contimg">
-    <div class="contimg1"><img  src="img/flower.svg" alt=""> <h4>3 ноября</h4></div>
-    <div class="contimg2"><img  src="img/fire.svg" alt=""> <h4>Билет <br> 300 Р</h4></div>              
-    <div class="contimg3"><img  src="img/rhomb.svg" alt=""> <h4>15:00</h4></div>
-    <div class="contimg4"><img  src="img/arrow.svg" alt=""> <h4>ТЦ "Гига". Москва</h4></div>
-                        </div>  
+
+
+
+           <div class="row block6 mt-5">
+               <div class="content6 pl-0 pr-0 pb-5">
+                <div class="undertb6 container-fluid">
+                <!-- <col width="50%">
+                    <col width="50%">-->   
+<div class="row">
+                    <div class="col col-md-6 pl-0 pr-0 brlock1">
+                                         <h1>ОКТЯБРЬСКАЯ ИГРОТЕКА</h1>
+                                         <p>Приглашаем вас на увлекательнуюигротеку от Бинго Бонго! 
+                                             Приходите сами, приводите друзей и семью. Мы обещаем - будет очень весело!
+                                         </p>
+                                         <div class="contimg">
+                                                 <div class="contimg1"><img  src="img/flower.svg" alt=""> <h4>3 ноября</h4></div>
+                                                 <div class="contimg2"><img  src="img/fire.svg" alt=""> <h4>Билет <br> 300 Р</h4></div>              
+                                                 <div class="contimg3"><img  src="img/rhomb.svg" alt=""> <h4>15:00</h4></div>
+                                                 <div class="contimg4"><img  src="img/arrow.svg" alt=""> <h4>ТЦ "Гига". Москва</h4></div>
+                                         </div>  
 
                
 
-                    </td>
+                    </div>
                     
-                    <td>
-                        <div width="80%" class="inpdiv">
-                            <p>Имя</p>
-                             <input type="text" > 
-                             <p>Телефон</p>
-                             <input type="number" > 
-                             <p>E-mail</p>
-                             <input type="text" ><br><br>
-                             <span>Выберите свой игровой уровень</span>
-                             <div class="btnspisokf" ><button class="spisok1f"></button><span>Новичок</span>
-                                <button class="spisok2f" ></button><span>Любитель</span>
-                                <button class="spisok3f" ></button><span>Профессионал</span></div>
-                                <button class="spisok4f" ></button><span>Я согласен на обработку моих персональных данных</span>
-
-<button class="navb">Купить билет</button>
+                    <div class="col col-md-6 pl-0 pr-0 brlock2">
 
 
-
+                                    <div class="inpdiv">
+                                        <p>Имя</p>
+                                         <input type="text" > 
+                                         <p>Телефон</p>
+                                         <input type="number" > 
+                                         <p>E-mail</p>
+                                         <input type="text" ><br><br>
+                                         <span>Выберите свой игровой уровень</span>
+                                         <div class="btnspisokf " ><button class="spisok1f"></button><span>Новичок</span>
+                                            <button class="spisok2f" ></button><span>Любитель</span>
+                                            <button class="spisok3f" ></button><span>Профессионал</span></div>
+                                            <button class="spisok4f" ></button><span>Я согласен на обработку моих персональных данных</span>
+                                        <div class="row">    <button class="navb">Купить билет</button></div>
+                                        
+                                        
+                                        
+                                        
 
                         </div>
 
-                    </td>
-                </table>
+                    </div>
+                    
+                </div>
             </div>
-            <div class="contentf">
+        </div>
+        <div class="contentf">
+
+
             <footer >
                 <ul>
                     <li  class="li1f"><a href="#" >Бинго Бонго @ 2021 Все права защищены</a>
@@ -348,9 +339,10 @@ $('#smena1').replaceWith('<p class="left">3 ТЕКСТ полюбившейся 
                 </ul>
             </footer>
         </div>
-           </tr>
+        
+           </div>
 
-       </table>
+       </div>
     
     </div>
 
@@ -362,7 +354,8 @@ $('#smena1').replaceWith('<p class="left">3 ТЕКСТ полюбившейся 
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </body>
 
 
